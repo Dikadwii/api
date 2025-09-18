@@ -102,8 +102,6 @@ def createData(profile: profile):
 
 
     })
-   
-
     print(profile)
 
     df = pd.concat([df, NewData])
