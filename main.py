@@ -22,7 +22,7 @@ def getWelcome():#function untuk menghandle endpoint diatas
     }
 
 #endpoint untuk menampilkan semua dataset
-@app.get("/profile")
+@app.get("/DIKA")
 def GetData():
     #melakukan proses pengambilan data dari csv
     df = pd.read_csv("dataset.csv")
