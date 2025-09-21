@@ -88,7 +88,7 @@ class profile(BaseModel):
 
 
 #endpoint untuk nambah data baru
-@app.post("/data")
+@app.post("/data/{id}")
 def createData(profile: profile):
     df = pd.read_csv("dataset.csv")
 
