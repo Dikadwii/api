@@ -7,7 +7,7 @@ from datetime import datetime
 #membuat objek fastAPI
 app = FastAPI()
 
-password ="kopi12"
+password ="kopihitamsusu12"
 
 
 #membuat endpoint -> ketentuan untuk client membuat request
